@@ -8,6 +8,7 @@ import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 import RegisterModal from '../components/RegisterModal';
 import WeeklyOffers from "../components/WeeklyOffers";
+import ChatBot from "../components/ChatBot";
 
 export default function HomePage() {
   const location = useLocation();
@@ -46,6 +47,7 @@ export default function HomePage() {
       <About />
       <ContactSection />
       <Footer />
+      <ChatBot />
     </div>
   );
 }
